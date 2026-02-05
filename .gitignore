@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Generated PDFs (regenerated on server start)
+server/documents/*.pdf
+
+# Build output
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Lock files (optional - uncomment if you want to track them)
+# package-lock.json
+# server/package-lock.json

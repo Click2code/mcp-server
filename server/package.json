@@ -1,0 +1,20 @@
+{
+  "name": "prior-auth-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "db:setup": "node db/setup.js",
+    "db:reset": "node db/setup.js --reset",
+    "generate-pdfs": "node documents/generate-pdfs.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "pdfkit": "^0.15.0",
+    "pg": "^8.13.0",
+    "uuid": "^10.0.0"
+  }
+}
